@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    flex-direction:column;
+}
+
+.header{
+    display: flex;
+}
+
+.section1{
+    display: flex;
+}
+
+.items{
+    display: flex;
+}
+
+.section4{
+    display: flex;
+}
+
+ul{
+    display: flex;
+}
