@@ -5,10 +5,17 @@ body{
 
 .header{
     display: flex;
+    justify-content:space-around;
 }
 
 .section1{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3{
+    background-color: #E5E7EB;
 }
 
 .items{
@@ -17,8 +24,46 @@ body{
 
 .section4{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+}
+.section4-container{
+    display: flex;
+    background-color: #3882F6;
 }
 
 ul{
     display: flex;
+}
+
+.header, .section1, .footer{
+    background-color: #1f2937;
+    color: #E5E7EB;
+}
+
+.logo-text{
+    font: 24px;
+    color: #F9FAF8;
+}
+
+.hero-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+button{
+    background-color: #3882F6;
+}
+
+.item{
+    outline-color: #3882F6;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
 }
