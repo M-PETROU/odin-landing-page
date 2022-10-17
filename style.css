@@ -1,11 +1,29 @@
+/* alignment */
+
 body{
+    height: 100vh;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
+}
+
+.section1, .section2, .section3, .section4{
+    flex: 1;
 }
 
 .header{
     display: flex;
-    justify-content:space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container{
+    display: flex;
+    justify-content:space-between;
+    width: 600px;
+}
+
+ul{
+    display: flex;
 }
 
 .section1{
@@ -14,29 +32,70 @@ body{
     align-items: center;
 }
 
-.section3{
-    background-color: #E5E7EB;
+.section1-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
 }
 
 .items{
     display: flex;
 }
 
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+.quote-author{
+    align-self: flex-end
+}
+
 .section4{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 600px;
-    height: 200px;
-}
-.section4-container{
-    display: flex;
-    background-color: #3882F6;
 }
 
-ul{
+.section4-container{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 150px;
 }
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* colors and fonts */ 
 
 .header, .section1, .footer{
     background-color: #1f2937;
@@ -60,6 +119,14 @@ button{
 
 .item{
     outline-color: #3882F6;
+}
+
+.section3{
+    background-color: #E5E7EB;
+}
+
+.section4-container{
+    background-color: #3882F6;
 }
 
 .quote{
